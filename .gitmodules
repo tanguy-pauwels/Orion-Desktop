@@ -1,0 +1,3 @@
+[submodule "trading-sdk"]
+	path = trading-sdk
+	url = git@github.com:tanguy-pauwels/trading-sdk.git
