@@ -16,7 +16,8 @@ CALL %VENV_DIR%\Scripts\activate
 REM Vérifier si requirements.txt existe
 IF EXIST %REQUIREMENTS% (
     echo Installation des dépendances depuis %REQUIREMENTS%...
-    pip install -r %REQUIREMENTS%
+    %VENV_DIR%\Scripts\python.exe -m pip install --upgrade pip
+    %VENV_DIR%\Scripts\python.exe -m pip install -r %REQUIREMENTS%
 ) ELSE (
     echo Le fichier %REQUIREMENTS% n'existe pas. Assurez-vous de l'avoir créé.
     EXIT /B 1
