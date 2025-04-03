@@ -1,0 +1,54 @@
+# Fichiers de cache et dépendances
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnements virtuels
+venv/
+env/
+
+# Fichiers de configuration locaux
+*.env
+*.local
+
+# Fichiers de sortie et logs
+*.log
+*.sqlite3
+
+# IDE et éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Fichiers temporaires
+*.tmp
+*.temp
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+
+# Fichiers de données
+*.db
+*.sqlite
+
+# Fichiers de compilation
+*.o
+*.so
+*.dll
+
+# Fichiers de package
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Fichiers de test
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Fichiers spécifiques au projet
+*.DS_Store
+Thumbs.db
